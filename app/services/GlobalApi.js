@@ -1,5 +1,4 @@
 import axios from "axios";
-
 const BASE_URL = "https://maps.googleapis.com/maps/api/place";
 const ENDPOINT_NEARBY_SEARCH = "/nearbysearch/json";
 const API_KEY = "AIzaSyB5K3BNqHDiDzBpTQO5sQ1LpNmFVNjt_wI";
