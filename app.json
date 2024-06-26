@@ -17,11 +17,27 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "package": "com.tour.quick",
+        "googleMapsApiKey": "AIzaSyB5K3BNqHDiDzBpTQO5sQ1LpNmFVNjt_wI"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["path/to/file.ttf"]
+        }
+      ]
+    ]
   }
 }
