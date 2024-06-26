@@ -20,7 +20,12 @@
         "backgroundColor": "#ffffff",
         "package": "com.tour.quick",
         "googleMapsApiKey": "AIzaSyB5K3BNqHDiDzBpTQO5sQ1LpNmFVNjt_wI"
-      }
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.junaid5.QuickTour"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,9 +40,16 @@
       [
         "expo-font",
         {
-          "fonts": ["path/to/file.ttf"]
+          "fonts": [
+            "path/to/file.ttf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ab57d739-b8cc-45a8-9d9d-ee6a74d8765d"
+      }
+    }
   }
 }

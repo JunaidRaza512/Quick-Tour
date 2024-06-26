@@ -4,7 +4,7 @@ import GoogleMapViewFull from "../Components/search/GoogleMapViewFull";
 import SearchBar from "../Components/search/SearchBar";
 import { UserLocationContext } from "../context/UserLocationContext";
 import GlobalApi from "../services/GlobalApi";
-import { Text } from "react-native";
+
 import BusinessList from "../Components/search/BusinessList";
 
 export default function SearchPlace() {
